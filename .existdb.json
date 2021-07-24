@@ -1,0 +1,30 @@
+{
+    "servers": {
+        "localhost": {
+            "server": "http://localhost:8080/exist",
+            "user": "admin",
+            "password": "",
+            "root": "/db/apps/dancepartners"
+        }
+    },
+    "sync": {
+        "server": "localhost",
+        "ignore": [
+            ".existdb.json",
+            ".git/**",
+            ".vscode/**",
+            "node_modules/**",
+            "build/**"
+        ]
+    },
+    "package": {
+        "title": "Dancepartners",
+        "target": "dancepartners",
+        "description": "Demo app for the dicey library (v2.0.0)",
+        "ns": "http://line-o.de/xq/dancepartners",
+        "type": "application",
+        "website": "",
+        "status": "beta",
+        "copyright": true
+    }
+}
